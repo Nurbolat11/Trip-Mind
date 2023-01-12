@@ -1,0 +1,214 @@
+@import url(fonts.css);
+
+body {
+    margin: 0;
+}
+h1,h2,h3,h4,h5,p {
+    margin: 0;       
+}
+.wrapper-main {
+    width: 1920px;
+}
+.wrapper-group1 {
+    width: 100%;
+    height: 970px;
+    background: url(../img/imgMain.png) center no-repeat;
+    background-size: cover;
+}
+header {
+    padding-top: 40px;
+}
+.container {
+    width: 1676px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, .burger-menu{
+    width: 10%;
+}
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+}
+nav a:last-child {
+    margin-right: 0;
+}
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.burger-menu .line {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 12px;
+}
+.burger-menu .line:last-child {
+    margin-bottom: 0;
+}
+.main .container {
+    display: block;
+    padding-top: 145px;
+}
+.main h1, h3, p {
+    color: white;
+}
+.main .container h1 {
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.main .container h3 {
+    width: 28%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 70px;
+}
+.request {
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.btn {
+    width: 335px;
+    height: 75px;
+    background-color: #DD9428;
+    border: none;
+    outline: 0;
+    border-radius: 38px;
+    color: #331111;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: #A1A8B6;
+}
+.video { 
+    width: 35%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.video p {
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A1A8B6;
+}
+.socialNetwork p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    margin-bottom: 20px;
+}
+.icons svg {
+    margin-right: 40px;
+}
+.description, .reviews {
+    padding: 160px 0;
+}
+.description .container, .reviews .container {
+    width: 1378px; 
+    height: 475px; 
+    margin: 0 auto; 
+    align-items: flex-start;   
+}
+.description h2, .reviews h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.description-text p, .reviews-text p {
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: black;
+    margin-bottom: 50px;
+}
+.description-photo {
+    width: 60%;    
+    background: url(../img/imgDescription1.png) center no-repeat;
+    background-size: cover;
+    border-radius: 16px;  
+    padding: 40px 60px 60px;  
+}
+.description-photo p, .reviews-photo p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.description-text {
+    width: 40%;
+    padding: 35px 0 43px 100px;
+}
+.description-text .btn, .reviews-text .btn {
+    width: 275px;
+    height: 75px;
+    color: #DD9428;
+    background: transparent;
+    border: 2px solid #DD9428;
+}
+.description-text .btn:hover, .reviews-text .btn:hover {
+    background-color: #DD9428;
+    color: black;
+}
+p.data {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 264px;
+}
+.arrow p {
+    width: 25%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+.reviews-photo {
+    width: 60%;    
+    background: url(../img/imgReviews.png) center no-repeat;
+    background-size: cover;
+    border-radius: 16px;  
+    padding: 40px 60px 60px;  
+}
+.reviews h2 {
+    margin-bottom: 40px;
+}
+.reviews-text {
+    width: 40%;
+    padding: 35px 100px 43px 0;
+}
+.reviews-text p {
+    width: 85%;
+}
+#vacation {
+    width: 45%;
+}
