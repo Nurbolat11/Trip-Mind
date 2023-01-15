@@ -28,10 +28,15 @@ header {
 .logo, .burger-menu{
     width: 10%;
 }
-nav a {
+nav a, .main .container h3, .btn, .video p, .socialNetwork p, .description-text p, .reviews-text p, .description-photo p, .reviews-photo p,
+.arrow p, .request-text p, .request-field .btn, .request-field p, input[type="text"], input[type="tel"], .footer-logo p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+}
+nav a, .video p, .arrow p, input[type="text"], input[type="tel"], .footer-logo p {
     font-weight: 500;
+}
+nav a {    
+    font-size: 15px;    
     color: white;
     text-decoration: none;
     margin-right: 45px;
@@ -61,27 +66,35 @@ nav a:last-child {
 .main h1, h3, p {
     color: white;
 }
-.main .container h1 {
-    width: 50%;
+.main .container h1, .description h2, .reviews h2, .request-text h2, p.data {
     font-family: 'Playfair Display', serif;
-    font-size: 70px;
     font-weight: 700;
+}
+.main .container h1 {
+    width: 50%;    
+    font-size: 70px;   
     margin-bottom: 50px;
 }
-.main .container h3 {
-    width: 28%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+.main .container h3, .socialNetwork p, .description-text p, .reviews-text p, .description-photo p, .reviews-photo p, .request-text p,
+.request-field p {
     font-weight: 400;
+}
+.main .container h3 {
+    width: 28%;    
+    font-size: 25px;    
     line-height: 45px;
     margin-bottom: 70px;
 }
-.request {
+.trip {
     width: 37%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
+}
+.btn, .request-field .btn {
+    font-size: 20px;
+    font-weight: 600;
 }
 .btn {
     width: 335px;
@@ -90,10 +103,7 @@ nav a:last-child {
     border: none;
     outline: 0;
     border-radius: 38px;
-    color: #331111;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    color: #331111;     
 }
 .btn:hover {
     background-color: #A1A8B6;
@@ -105,16 +115,12 @@ nav a:last-child {
     align-items: center;
 }
 .video p {
-    width: 55%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    width: 55%;    
+    font-size: 16px;   
     color: #A1A8B6;
 }
-.socialNetwork p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+.socialNetwork p {    
+    font-size: 14px;    
     letter-spacing: 0.06em;
     margin-bottom: 20px;
 }
@@ -130,17 +136,13 @@ nav a:last-child {
     margin: 0 auto; 
     align-items: flex-start;   
 }
-.description h2, .reviews h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+.description h2, .reviews h2, .request-text h2 {    
     font-size: 42px;
     line-height: 55px;
     margin-bottom: 30px;
 }
 .description-text p, .reviews-text p {
-    width: 80%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    width: 80%;   
     font-size: 18px;
     line-height: 33px;
     color: black;
@@ -153,9 +155,7 @@ nav a:last-child {
     border-radius: 16px;  
     padding: 40px 60px 60px;  
 }
-.description-photo p, .reviews-photo p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+.description-photo p, .reviews-photo p {     
     font-size: 16px;
 }
 .description-text {
@@ -173,9 +173,7 @@ nav a:last-child {
     background-color: #DD9428;
     color: black;
 }
-p.data {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+p.data {    
     font-size: 23px;
     margin-bottom: 5px;
 }
@@ -186,9 +184,7 @@ p.data {
     margin-top: 264px;
 }
 .arrow p {
-    width: 25%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    width: 25%;      
     font-size: 20px;
     line-height: 29px;
 }
@@ -212,3 +208,92 @@ p.data {
 #vacation {
     width: 45%;
 }
+.request {
+    width: 100%;
+    height: 518px;
+    background: url(../img/imgRequest.png) center no-repeat;
+    background-size: cover;    
+}
+.request .container {
+    width: 1378px;    
+    justify-content: flex-end;
+    align-items: flex-start; 
+    padding-top: 140px;   
+}
+.request .request-text {
+    width: 30%;
+}
+.request .request-text h2 {
+    margin-top: -18px;
+}
+.request-text p {
+    width: 43%;     
+    font-size: 18px;
+    line-height: 33px;
+    color: black;
+}
+.request-field {
+    width: 21%;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.request-field .btn {
+    margin-top: 5px;
+    width: 283px;
+    height: 75px;
+    background: #DD9428;
+    border-radius: 38px;
+    color: #331111;      
+    line-height: 24px;
+}
+.request-field .btn:hover {
+    background: transparent;
+    border-radius: 38px;
+    border: 1px solid #DD9428;
+}
+.request-field p {
+    margin: 10px auto 0;
+    width: 78%;     
+    font-size: 11px;
+    line-height: 18px;
+    color: black;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+input[type="text"], input[type="tel"] {
+    margin-bottom: 20px;
+    border: 2px solid #CED8DF;
+    border-radius: 38px;    
+    font-size: 20px;
+    color: #B7C3CC; 
+    padding: 25px 0 26px 20px ;
+}
+input::placeholder {
+    color: #B7C3CC;
+}
+.color-text {
+    color: #DD9428;
+}
+footer {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 72px 0;
+}
+.footer-logo {
+    width: 45%;
+    display: flex;    
+    align-items: center;
+}
+.footer-logo p {
+    width: 25%;       
+    font-size: 14px;
+    line-height: 20px;
+    color: #90A4B2;
+    margin-left: 130px;
+}
+.footer-icons svg {
+    margin-left: 40px;
+}
+
+
