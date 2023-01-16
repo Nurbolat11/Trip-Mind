@@ -103,10 +103,12 @@ nav a:last-child {
     border: none;
     outline: 0;
     border-radius: 38px;
-    color: #331111;     
+    color: #331111;
+    transition: 0.5s;     
 }
 .btn:hover {
     background-color: #A1A8B6;
+    cursor: pointer;
 }
 .video { 
     width: 35%; 
@@ -124,8 +126,10 @@ nav a:last-child {
     letter-spacing: 0.06em;
     margin-bottom: 20px;
 }
-.icons svg {
-    margin-right: 40px;
+.icons {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
 }
 .description, .reviews {
     padding: 160px 0;
@@ -168,10 +172,12 @@ nav a:last-child {
     color: #DD9428;
     background: transparent;
     border: 2px solid #DD9428;
+    transition: 0.5s;
 }
 .description-text .btn:hover, .reviews-text .btn:hover {
     background-color: #DD9428;
     color: black;
+    cursor: pointer;
 }
 p.data {    
     font-size: 23px;
@@ -292,8 +298,10 @@ footer {
     color: #90A4B2;
     margin-left: 130px;
 }
-.footer-icons svg {
-    margin-left: 40px;
+.footer-icons  {
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
